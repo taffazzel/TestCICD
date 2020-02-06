@@ -27,7 +27,7 @@ steps:
 
 - script: |
     python -m pip install --upgrade pip
-    python3 Calculation_Test.py
+    python Calculation_Test.py
   displayName: 'Install dependencies'
 
 - script: |

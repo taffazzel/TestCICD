@@ -16,7 +16,7 @@ class CalculationTest(unittest.TestCase):
         self.assertEqual(ans,7)
     def test_minus(self):
         print ("I am in minus")
-        mins = self.lib.minus(7,4)
+        mins = self.lib.minus(8,5)
         self.assertEqual(mins,3)
 
     def test_divide(self):
